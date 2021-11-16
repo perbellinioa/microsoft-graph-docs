@@ -35,7 +35,7 @@ Data connect supports the following datasets today. To view the schemas for each
 | DocumentSharingDataSet_Preview | SharePoint sharing information, showing what is being shared and who are the sharing recipients (including internal users, external users, security groups and SharePoint groups).  | [DocumentSharing_v0_Preview](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/DocumentSharingDataset_v0_Preview.json) | [Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/DocumentSharingDataset_v0_Preview.md) |
 
 > [!NOTE]
-> The SharePoint Sharing dataset is currently in **preview**. To enable this dataset, you need to join the Graph TAP program using the signup form at [https://aka.ms/GraphTAPForm](https://aka.ms/GraphTAPForm) and request to join the preview.
+> The SharePoint Sharing dataset is currently in **private preview**.
 
 ## Regions
 
