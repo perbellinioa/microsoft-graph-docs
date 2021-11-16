@@ -303,11 +303,11 @@ Content-length: 4492
 #### Request
 The following is an example of the request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "get_submissions_prefer"
 }-->
+
 ```http
 GET https://graph.microsoft.com/beta/education/classes/59069eb2-2a09-4d90-bb19-2089cc69d613/assignments/80da1069-a635-4913-813f-d775a5470a8f/submissions
 Prefer: include-unknown-enum-members
