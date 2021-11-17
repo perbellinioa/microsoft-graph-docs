@@ -18,9 +18,6 @@ graphClient.tenantRelationships().managedTenants().managementActions("{managemen
 		.withTenantId(tenantId)
 		.withTenantGroupId(tenantGroupId)
 		.withManagementTemplateId(managementTemplateId)
-		.withIncludeAllUsers(null)
-		.withIncludeGroups(null)
-		.withExcludeGroups(null)
 		.build())
 	.buildRequest()
 	.post();

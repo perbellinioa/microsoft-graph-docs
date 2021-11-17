@@ -1696,12 +1696,3 @@ Possible values for user account types (group membership), per Windows definitio
 |faculty|
 |other|
 |unknownFutureValue|
-
-### advancedConfigState values 
-
-|Member|
-|:---|
-|default|
-|enabled|
-|disabled|
-|unknownFutureValue|

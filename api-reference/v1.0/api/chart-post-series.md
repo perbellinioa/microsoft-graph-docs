@@ -53,6 +53,7 @@ Here is an example of the request.
 ```http
 POST https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/worksheets/{id|name}/charts/{name}/series
 Content-type: application/json
+Content-length: 26
 
 {
   "name": "name-value"
@@ -87,6 +88,7 @@ Here is an example of the response. Note: The response object shown here might b
 ```http
 HTTP/1.1 201 Created
 Content-type: application/json
+Content-length: 26
 
 {
   "name": "name-value"

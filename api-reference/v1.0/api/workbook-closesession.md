@@ -55,6 +55,7 @@ Here is an example of the request.
 POST https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/closeSession
 Content-type: application/json
 workbook-session-id: {session-id}
+Content-length: 0
 
 {
 

@@ -27,7 +27,6 @@ Defines authentication methods and the users that are allowed to use them to sig
 |id|String|The identifier of the policy. Inherited from [entity](../resources/entity.md).|
 |lastModifiedDateTime|DateTimeOffset|The date and time of the last update to the policy. Read-only.|
 |policyVersion|String|The version of the policy in use. Read-only.|
-|registrationEnforcement|[registrationEnforcement](../resources/registrationenforcement.md)|Enforce registration at sign-in time. This property can be used to remind users to set up targeted authentication methods.|
 
 ## Relationships
 |Relationship|Type|Description|
@@ -52,8 +51,5 @@ The following is a JSON representation of the resource.
   "description": "String",
   "lastModifiedDateTime": "String (timestamp)",
   "policyVersion": "String",
-  "registrationEnforcement": {
-    "@odata.type": "microsoft.graph.registrationEnforcement"
-  } 
 }
 ```

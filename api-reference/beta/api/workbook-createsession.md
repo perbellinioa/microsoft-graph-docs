@@ -72,6 +72,7 @@ If successful, this method returns a `201 Created` response code and a [workbook
 ```http
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/createSession
 Content-type: application/json
+Content-length: 52
 
 {
   "persistChanges": true
@@ -106,6 +107,7 @@ Content-type: application/json
 ```http
 HTTP/1.1 201 Created
 Content-type: application/json
+Content-length: 52
 
 {
   "id": "id-value",

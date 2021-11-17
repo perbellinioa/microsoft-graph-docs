@@ -56,6 +56,7 @@ Here is an example of the request.
 ```http
 PATCH https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/names/{name}
 Content-type: application/json
+Content-length: 87
 
 {
   "type": "type-value",
@@ -94,6 +95,7 @@ Here is an example of the response. Note: The response object shown here might b
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
+Content-length: 87
 
 {
   "name": "name-value",

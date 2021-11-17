@@ -10,6 +10,8 @@ doc_type: apiPageType
 # Create printJob for a printerShare
 Namespace: microsoft.graph
 
+[!INCLUDE [cloudprinting-pricing-disclaimer](../../includes/cloudprinting-pricing-disclaimer.md)]
+
 Create a new [printJob](../resources/printJob.md) for a [printerShare](../resources/printerShare.md). 
 
 Also creates a new [printDocument](../resources/printDocument.md) associated with the printJob.
@@ -63,6 +65,7 @@ If successful, this method returns a `201 Created` response code and a [printJob
 ``` http
 POST https://graph.microsoft.com/v1.0/print/shares/{printerShareId}/jobs
 Content-Type: application/json
+Content-length: 376
 
 {
   "configuration": {

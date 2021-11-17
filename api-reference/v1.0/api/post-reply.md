@@ -60,6 +60,7 @@ Here is an example of the request.
 ```http
 POST https://graph.microsoft.com/v1.0/groups/{id}/threads/{id}/posts/{id}/reply
 Content-type: application/json
+Content-length: 1131
 
 {
   "post": {
@@ -124,10 +125,6 @@ Content-type: application/json
 
 # [Java](#tab/java)
 [!INCLUDE [sample-code](../includes/snippets/java/post-reply-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/post-reply-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---

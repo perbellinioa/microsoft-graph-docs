@@ -61,6 +61,7 @@ Add licenses to the user.
 ```http
 POST https://graph.microsoft.com/beta/me/assignLicense
 Content-type: application/json
+Content-length: 185
 
 {
   "addLicenses": [
@@ -92,10 +93,6 @@ Content-type: application/json
 [!INCLUDE [sample-code](../includes/snippets/java/user-assignlicense-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/user-assignlicense-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 
@@ -106,6 +103,7 @@ Remove licenses from the user.
 ```http
 POST https://graph.microsoft.com/beta/me/assignLicense
 Content-type: application/json
+Content-length: 185
 
 {
   "addLicenses": [],
@@ -123,6 +121,7 @@ In both examples, the response is the updated user object. Note: The response ob
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
+Content-length: 491
 
 {
   "accountEnabled": true,

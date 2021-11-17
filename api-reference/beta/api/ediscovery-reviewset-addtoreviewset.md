@@ -73,6 +73,7 @@ If successful, this action returns a `202 Accepted` response code.
 ``` http
 POST https://graph.microsoft.com/beta/compliance/ediscovery/cases/080e8cad-f21f-4452-8826-0ddf7e949fdd/reviewSets/6fe25d32-8167-4625-b75c-c4181ccbd9d5/addToReviewSet
 Content-Type: application/json
+Content-length: 531
 
 {
     "sourceCollection": {

@@ -53,6 +53,7 @@ The following is an example of the request.
 ```http
 POST https://graph.microsoft.com/v1.0/groups/{id}/owners/$ref
 Content-type: application/json
+Content-length: 30
 
 {
   "@odata.id": "https://graph.microsoft.com/v1.0/users/{id}"
@@ -72,10 +73,6 @@ Content-type: application/json
 
 # [Java](#tab/java)
 [!INCLUDE [sample-code](../includes/snippets/java/create-owner-from-group-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/create-owner-from-group-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---

@@ -66,6 +66,7 @@ If successful, this method returns a `201 Created` response code and a [group](.
 ``` http
 POST https://graph.microsoft.com/beta/termStore/groups
 Content-Type: application/json
+Content-length: 135
 
 {
   "displayName" : "myGroup"

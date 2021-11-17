@@ -69,6 +69,7 @@ If successful, this method returns a `200 OK` response code and an updated [subj
 ``` http
 PATCH https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/{subjectRightsRequestId}
 Content-Type: application/json
+Content-length: 837
 
 {
   "@odata.type": "#microsoft.graph.subjectRightsRequest",
@@ -89,10 +90,6 @@ Content-Type: application/json
 
 # [Java](#tab/java)
 [!INCLUDE [sample-code](../includes/snippets/java/update-subjectrightsrequest-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/update-subjectrightsrequest-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---

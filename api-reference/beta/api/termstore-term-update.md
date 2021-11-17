@@ -70,6 +70,7 @@ If successful, this method returns a `200 OK` response code and an updated [term
 ``` http
 PATCH https://graph.microsoft.com/beta/termStore/sets/{setId}/terms/{termId}
 Content-Type: application/json
+Content-length: 366
 
 {
   "labels" : [
@@ -95,10 +96,6 @@ Content-Type: application/json
 
 # [Java](#tab/java)
 [!INCLUDE [sample-code](../includes/snippets/java/update-term-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/update-term-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---

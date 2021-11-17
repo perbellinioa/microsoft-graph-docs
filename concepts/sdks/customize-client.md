@@ -160,7 +160,15 @@ var scopes = new[] { "https://graph.microsoft.com/.default" };
 // This example works with Microsoft.Graph 4+
 var httpClient = GraphClientFactory.Create(new TokenCredentialAuthProvider(credential, scopes), proxy: new WebProxy(new Uri(proxyAddress)));
 
-var graphClient = new GraphServiceClient(httpClient);
+GraphServiceClient graphClient = new(httpClient);
+
+/* For Microsoft.Graph version < 4, you'll need to implement an authHandler. Please note
+/* that Microsoft.Graph.Auth is deemphasized and will not leave the preview state.
+
+var httpProvider = new HttpProvider(handler, true);
+GraphServiceClient graphClient = new(authHandler, httpProvider);
+
+*/
 ```
 
 ## [TypeScript](#tab/typeScript)

@@ -81,6 +81,7 @@ If successful, this method returns `200 OK` response code.
 ```http
 POST https://graph.microsoft.com/beta/domains/contoso.com/forceDelete
 Content-type: application/json
+Content-length: 33
 
 {
   "disableUserAccounts": true
@@ -100,10 +101,6 @@ Content-type: application/json
 
 # [Java](#tab/java)
 [!INCLUDE [sample-code](../includes/snippets/java/domain-forcedelete-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/domain-forcedelete-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---

@@ -57,6 +57,7 @@ The following example creates a task folder called `Cooking` in the specified ta
 ```http
 POST https://graph.microsoft.com/beta/me/outlook/taskgroups/AAMkADIyAAAhrbe-AAA=/taskfolders
 Content-type: application/json
+Content-length: 131
 
 {
   "name": "Cooking"
@@ -78,10 +79,6 @@ Content-type: application/json
 [!INCLUDE [sample-code](../includes/snippets/java/create-outlooktaskfolder-from-outlooktaskgroup-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/create-outlooktaskfolder-from-outlooktaskgroup-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 
@@ -96,6 +93,7 @@ Here is an example of the response. Note: The response object shown here might b
 ```http
 HTTP/1.1 201 Created
 Content-type: application/json
+Content-length: 151
 
 {
   "id": "AAMkADIyAAAhrbPXAAA=",

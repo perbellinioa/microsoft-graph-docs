@@ -10,6 +10,8 @@ doc_type: apiPageType
 # Create allowedUser for printerShare
 Namespace: microsoft.graph
 
+[!INCLUDE [cloudprinting-pricing-disclaimer](../../includes/cloudprinting-pricing-disclaimer.md)]
+
 Grant the specified user access to submit print jobs to the associated [printerShare](../resources/printershare.md).
 
 ## Permissions
@@ -59,6 +61,7 @@ If successful, this method returns a `204 No Content` response code.
 ``` http
 POST https://graph.microsoft.com/v1.0/print/shares/{printerShareId}/allowedUsers/$ref
 Content-Type: application/json
+Content-length: 46
 
 {
   "@odata.id": "https://graph.microsoft.com/v1.0/users/{userId}"
@@ -78,10 +81,6 @@ Content-Type: application/json
 
 # [Java](#tab/java)
 [!INCLUDE [sample-code](../includes/snippets/java/create-user-from--java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/create-user-from--go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---

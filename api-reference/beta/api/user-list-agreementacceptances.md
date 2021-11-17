@@ -69,10 +69,6 @@ GET https://graph.microsoft.com/beta/me/agreementAcceptances
 [!INCLUDE [sample-code](../includes/snippets/java/get-agreementacceptances-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/get-agreementacceptances-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 ##### Response
@@ -87,6 +83,7 @@ GET https://graph.microsoft.com/beta/me/agreementAcceptances
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
+Content-length: 303
 
 {
   "value": [

@@ -65,6 +65,7 @@ If successful, this action returns a `204 No Content` response code.
 ``` http
 POST https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/confirmCompromised
 Content-Type: application/json
+Content-length: 39
 
 {
   "userIds": [

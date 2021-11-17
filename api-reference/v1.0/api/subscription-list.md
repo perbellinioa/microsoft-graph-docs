@@ -100,10 +100,6 @@ GET https://graph.microsoft.com/v1.0/subscriptions
 [!INCLUDE [sample-code](../includes/snippets/java/get-subscriptions-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/get-subscriptions-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 
@@ -121,6 +117,7 @@ Here's an example of the response.  Note that it may be truncated for brevity.  
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
+Content-length: 586
 
 {
   "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#subscriptions",

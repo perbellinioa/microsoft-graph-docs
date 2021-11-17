@@ -73,6 +73,7 @@ If successful, this method returns a `200 OK` response code and an updated [smsA
 ``` http
 PATCH https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations/sms
 Content-Type: application/json
+Content-length: 100
 
 {
     "@odata.type": "#microsoft.graph.smsAuthenticationMethodConfiguration",

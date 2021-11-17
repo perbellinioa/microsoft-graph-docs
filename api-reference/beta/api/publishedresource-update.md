@@ -88,10 +88,6 @@ PATCH https://graph.microsoft.com/beta/onPremisesPublishingProfiles/provisioning
 [!INCLUDE [sample-code](../includes/snippets/java/update-publishedresource-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/update-publishedresource-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 

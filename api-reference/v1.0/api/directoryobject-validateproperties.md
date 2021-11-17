@@ -75,6 +75,7 @@ This is an example of a successful validation request.
 ``` http
 POST https://graph.microsoft.com/v1.0/directoryObjects/validateProperties
 Content-type: application/json
+Content-length: 164
 
 {
   "entityType": "Group",
@@ -99,10 +100,6 @@ Content-type: application/json
 [!INCLUDE [sample-code](../includes/snippets/java/directoryobject-validateproperties-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/directoryobject-validateproperties-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 
@@ -123,6 +120,7 @@ This is an example of a request with validation errors.
 ```http
 POST https://graph.microsoft.com/v1.0/directoryObjects/validateProperties
 Content-type: application/json
+Content-length: 164
 
 {
   "entityType": "Group",

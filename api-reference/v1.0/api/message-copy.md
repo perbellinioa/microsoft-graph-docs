@@ -69,6 +69,7 @@ Here is an example of the request.
 ```http
 POST https://graph.microsoft.com/v1.0/me/messages/{id}/copy
 Content-type: application/json
+Content-length: 44
 
 {
   "destinationId": "destinationId-value"
@@ -90,10 +91,6 @@ Content-type: application/json
 [!INCLUDE [sample-code](../includes/snippets/java/message-copy-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/message-copy-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 
@@ -111,6 +108,7 @@ Here is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
+Content-length: 248
 
 {
   "receivedDateTime": "datetime-value",

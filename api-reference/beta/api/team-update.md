@@ -59,6 +59,7 @@ The following is an example of the request.
 ```http
 PATCH https://graph.microsoft.com/beta/teams/{id}
 Content-type: application/json
+Content-length: 211
 
 {  
  "isMembershipLimitedToOwners": true,
@@ -92,10 +93,6 @@ Content-type: application/json
 
 # [Java](#tab/java)
 [!INCLUDE [sample-code](../includes/snippets/java/update-team-java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/update-team-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---

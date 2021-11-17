@@ -83,6 +83,7 @@ If successful, this method returns a `200 OK` response code and an updated [exte
 ``` http
 PATCH https://graph.microsoft.com/v1.0/external/connections/contosohr/items/TSP228082938
 Content-Type: application/json
+Content-length: 360
 
 {
   "acl": [

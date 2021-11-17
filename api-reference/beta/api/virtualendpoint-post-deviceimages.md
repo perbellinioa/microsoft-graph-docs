@@ -76,6 +76,7 @@ If successful, this method returns a `201 Created` response code and a [cloudPcD
 ``` http
 POST https://graph.microsoft.com/beta/deviceManagement/virtualEndpoint/deviceImages
 Content-Type: application/json
+Content-length: 363
 
 {
   "@odata.type": "#microsoft.graph.cloudPcDeviceImage",
@@ -102,10 +103,6 @@ Content-Type: application/json
 [!INCLUDE [sample-code](../includes/snippets/java/create-cloudpcdeviceimage-from-cloudpcdeviceimage-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/create-cloudpcdeviceimage-from-cloudpcdeviceimage-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 
@@ -122,6 +119,7 @@ Content-Type: application/json
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
+Content-length: 508
 
 {
   "@odata.type": "#microsoft.graph.cloudPcDeviceImage",

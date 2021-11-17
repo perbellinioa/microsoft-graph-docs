@@ -134,6 +134,7 @@ Content-type: application/json
 ```http
 HTTP/1.1 201 Created
 Content-Type: application/json
+Content-length: 420
 {
     "id": "graphlearn_courses",
     "description": "Graph Learn training courses extensions",
@@ -197,6 +198,7 @@ Content-type: application/json
 ```http
 HTTP/1.1 201 Created
 Content-Type: application/json
+Content-length: 420
 {
     "id": "dfc8016f-db97-4c47-a582-49cb8f849355",
     "createdDateTime": "2017-02-09T00:17:05Z",
@@ -226,6 +228,7 @@ You can extend and add custom data to an _existing_ group instance with the addi
 ```http
 PATCH https://graph.microsoft.com/v1.0/groups/dfc8016f-db97-4c47-a582-49cb8f849355
 Content-type: application/json
+Content-length: 230
 {
     "graphlearn_courses":{
 	    "courseId":"123",
@@ -283,6 +286,7 @@ GET https://graph.microsoft.com/v1.0/groups?$filter=graphlearn_courses/courseId 
 ```http
 HTTP/1.1 200 OK
 Content-Type: application/json
+Content-length: 326
 {
   "value": [
     {

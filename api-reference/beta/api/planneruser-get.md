@@ -67,10 +67,6 @@ GET https://graph.microsoft.com/beta/me/planner
 [!INCLUDE [sample-code](../includes/snippets/java/get-planneruser-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/get-planneruser-go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 ---
 
 ##### Response
@@ -86,6 +82,7 @@ The following is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
+Content-length: 979
 
 {
   "favoritePlanReferences": {
