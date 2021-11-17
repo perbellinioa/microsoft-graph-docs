@@ -1,7 +1,7 @@
 ---
 title: "Get educationAssignment"
 description: "Get the properties and relationships of an assignment."
-author: "dipakboyed"
+author: "cristobal-buenrostro"
 ms.localizationpriority: medium
 ms.prod: "education"
 doc_type: apiPageType
@@ -34,6 +34,8 @@ GET /education/classes/{id}/assignments/{id}
 ```
 ## Optional query parameters
 This method supports the [OData Query Parameters](/graph/query-parameters) to help customize the response.
+
+The available `$expand` options for this method are: `categories`, `resources`, `rubric`, `submissions` and `*` which includes all the previous options.
 
 ## Request headers
 | Header       | Value |
