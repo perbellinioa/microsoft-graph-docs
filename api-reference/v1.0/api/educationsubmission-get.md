@@ -11,13 +11,13 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Retrieve a particular submission.
+Retrieve a particular [submission](../resources/educationsubmission.md).
 
-A submission object represents a student's work for an assignment. Resources associated with the submission represent this work. 
+A **submission** object represents a student's work for an [assignment](../resources/educationassignment.md). Resources associated with the **submission** represent this work. 
 
-Only the **assignedTo** student can see and modify the submission. A teacher or application with application permissions has full access to all submissions.
+Only the **assignedTo** student can see and modify the **submission**. A teacher or application with application permissions has full access to all **submissions**.
 
-The grade and feedback from a teacher are part of the [educationOutcome](../resources/educationoutcome.md) associated with this object. Only teachers or applications with application permissions can add or change grades and feedback. Students will not see the grade or feedback until the assignment has been released.
+The grade and feedback from a teacher are part of the [educationOutcome](../resources/educationoutcome.md) associated with this object. Only teachers or applications with application permissions can add or change grades and feedback. Students will not see the grade or feedback until the **assignment** has been released.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
