@@ -15,7 +15,7 @@ Namespace: microsoft.graph
 
 List all the submissions associated with an [assignment](../resources/educationassignment.md).
 
-A teacher or an application with application permissions can get all the submissions while a student can only get submissions that they are associated with.
+A teacher or an application with application permissions can get all the submissions, a student can only get submissions that they are associated with.
 
 If the header `Prefer: include-unknown-enum-members` is provided, reassigned submissions retain the `reassigned` status. For details, see the examples section.
 
