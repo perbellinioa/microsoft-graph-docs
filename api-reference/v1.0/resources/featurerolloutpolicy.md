@@ -42,7 +42,7 @@ The following are pre-requisites for each of the features that are currently sup
 
 ### Multi-Factor Authentication
 
-* Enable [Multi-Factor Authentication](azure/active-directory/authentication/howto-mfa-getstarted) using PowerShell.
+* Enable [Multi-Factor Authentication](/azure/active-directory/authentication/howto-mfa-getstarted) using PowerShell.
 
 ## Methods
 
