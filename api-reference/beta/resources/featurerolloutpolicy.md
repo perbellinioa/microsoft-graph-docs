@@ -44,6 +44,10 @@ The following are pre-requisites for each of the features that are currently sup
 
 * Associate alternate email  with user accounts.
 
+### Multi-Factor Authentication
+
+* Enable [Multi-Factor Authentication](azure/active-directory/authentication/howto-mfa-getstarted) using PowerShell.
+
 ## Methods
 
 | Method                                                                         | Return Type                                     | Description                                                               |
